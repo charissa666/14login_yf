@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="css/login_yf.css"/>
+<script src="js/jquery1.7.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/login_yf.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<h1 class="comWid"><a href="http://www.yaofang.cn"><img class="logo" src="img/logo_yf.png" alt="仁和药房网"/></a></h1>
+	<div class="loginAreaWrap">
+		<div class="comWid">
+			<a class="loginHref" href="http://tuan.yaofang.cn"></a>
+			<div class="loginArea">
+	            <div class="loginTit">
+	            	<span class="on">账户登录</span>
+	            	<span style="display: none;">扫码登录</span>
+	            	<span>手机登录</span>
+	            	<div class="loginHint"><b>-</b></div>
+	            </div>
+	            <div>
+	            	<!--帐户登录-->
+	            	<div class="loginCont" style="display: block;">
+		                <p class="loginBar">
+		                	<span class="userName"></span>
+		                	<input type="text" placeholder="用户名/手机号码/邮箱" id="loginName"/>
+		                </p>
+		                <p class="loginBar">
+		                    <span class="userPwd"></span>
+		                    <input type="password" placeholder="密码" id="loginPwd"/>
+		                </p>
+		                <p class="loginBar codeBar">
+		                    <input type="text" placeholder="请输入验证码" />
+		                    <i class="yzmChange">看不清换一张</i>
+		                    <i class="yzmCode"><img src="img/code.png"/></i>
+		                </p>
+		                <div class="check">
+		                    <input type="checkbox" name="remeber" checked/>记住我（下次自动登录）
+		                    <a href="javascript:;">忘记密码？</a>
+		                </div>
+		                <a class="loginBtn" href="javascript:;" id="UserBtn">登 录</a>
+		                <div class="reuser">
+			                <span>还不是药房网用户？</span>
+			                <a href="javascript:;">免费注册</a>
+			            </div>
+			            <div class="partner">
+			                <span>无需注册，选择以下方式快速登录：</span>
+			                <ul class="partnerList">
+			                	<li><a class="par_qq" href="javascript:;">QQ</a></li>
+			                	<li><a class="par_sina" href="javascript:;">新浪微博</a></li>
+			                	<li><a class="par_alipay" href="javascript:;">支付宝</a></li>
+			                </ul>
+			            </div>
+		            </div>
+		            <!--扫码登录-->
+		            <div class="loginCont">
+		            	<div class="erweimaArea">
+		            		<img src="img/erweima.jpg"/>
+		            		<div class="erweimaShade">
+		            			二维码已失效
+		            			<span class="erweimaBtn">刷新</span>
+		            		</div>
+		            	</div>
+		            	<p class="erweimaP">打开<a href="javascript:;">药房网APP</a>扫描二维码，快速登录</p>
+		            </div>
+		            <!--手机登录-->
+		            <div class="loginCont login_phone">
+		                <p class="loginBar">
+		                	<input type="text" placeholder="请输入手机号" id="loginPhoneInp"/>
+		                </p>
+		                <p class="loginBar">
+		                    <input class="codeInp" type="text" placeholder="请输入短信验证码" id="loginPhonePwd"/>
+		                    <i class="getCode">获取验证码</i>
+		                </p>
+		                <p class="loginBar codeBar">
+		                    <input type="text" placeholder="请输入验证码" />
+		                    <i class="yzmChange">看不清换一张</i>
+		                    <i class="yzmCode"><img src="img/code.png"/></i>
+		                </p>
+		                <a class="loginBtn" href="javascript:;" id="PhoneBtn">登 录</a>
+		            </div>
+	            </div>
+	        </div>
+		</div>
+	</div>
+	<!--footContent-->
+	<div class="loginFoot">
+		<ul class="loginFootList">
+			<li><a href="http://www.yaofang.cn">首页</a></li>
+			<li><a href="http://www.yaofang.cn/a/help/index/34">关于本站</a></li>
+			<li><a href="http://www.yaofang.cn/n/public/web_info/index/2012jsbj">荣誉证书</a></li>
+			<li><a href="http://www.yaofang.cn/n/public/huodong/index/20110222meitia">媒体报道</a></li>
+			<li><a href="http://www.yaofang.cn/a/help/index/30">联系我们</a></li>
+			<li><a href="href="http://www.yaofang.cn/a/help/index/35"">人才招聘</a></li>
+			<li><a href="http://www.yaofang.cn/a/help/index/41">友情链接</a></li>
+		</ul>
+		<p>Copyright@2011-2016 仁和药房网（北京）医药科技有限公司 版权所有，并保留所有权利。互联网药品交易服务证：京C20160005号</p>
+		<p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602100232" class="gongan">京公网安备 11010602100232号</a>  电信与信息服务业务经营许可证：京ICP证041574号 京CF备10054530号-1</p>
+	</div>
+</body>
+</html>

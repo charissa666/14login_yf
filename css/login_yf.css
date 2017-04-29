@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*通用样式*/
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,table,tr,td,th,form,iframe{margin:0;padding:0;}
+body,html{height:100%;}
+ul,ol,li{list-style:none;}
+img{display:block;border:0;}
+a{text-decoration:none;outline:none;color:#666;}
+a:hover{color:;}
+body{font:12px/1.5 "Microsoft YaHei","Arial, Helvetica, sans-serif";color:#666;}
+.comWid{width:1100px;margin:0px auto;clear:both;overflow: hidden;}
+
+
+/*login*/
+.logo{width:300px;margin:30px 0px;}
+.loginAreaWrap{width:100%;height:500px;background:url(../img/login_bj.jpg) center;}
+.loginHref{float:left;width:530px;height:470px;}
+.loginArea{width:340px;min-height:424px;background:rgba(255,255,255,.94);float:right;padding:0px 10px;margin-right:20px;margin-top:15px;}
+.loginTit{height:54px;border-bottom:1px solid #e6eef4;line-height:54px;font-size:15px;color:#73666b;margin-bottom:32px;}
+.loginTit>span{display:inline-block;cursor:pointer;width:49%;text-align:center;}
+.loginTit>span.on{color:#0e6eb2;font-weight:bold;border-bottom:2px solid #0e6eb2;height:53px;}
+.loginHint{display:none;height:22px;line-height:22px;color:#e40404;background:#fde9e9;margin:5px 20px 0px;font-size:12px;}
+.loginHint>b{display:inline-block;width:14px;height:14px;border-radius: 50%;color:#fff;text-align: center;line-height:10px;background:#e40404;font-size:20px;margin:0px 7px;}
+.loginCont{padding:0px 20px;display: none;overflow:hidden;}
+.loginBar{margin-bottom:18px;position:relative;}
+.loginBar input{border:none;width:263px;height:38px;border:1px solid #e6eef4;line-height:38px;background:#f2f7fb;border-radius:5px;padding-left:33px;font-size:14px;outline:none;}
+.loginBar span{display:block;width:16px;height:16px;position:absolute;left:8px;top:12px;background:url(../img/reg_ico.png) no-repeat;}
+.loginBar .userName{background-position:0px 0px;}
+.loginBar .userPwd{background-position:0px -76px;}
+.loginBar.s input{border-color:#acd2ee;color:#6a6063;}
+.loginBar.s .userName{background-position:0px -38px;}
+.loginBar.s .userPwd{background-position:0px -114px;}
+.check a{float:right;color:#0d81c6;}
+.loginBtn{display:block;width:300px;height:34px;line-height:34px;text-align:center;color:#fff2f7;background:#0e6eb2;margin:20px 0px 18px;box-shadow:1px 1px 1px #999;font-size:16px;border-radius: 3px;}
+.loginBtn:hover{background:#1e7fc4;}
+.login_phone input{padding-left:10px;width:286px;}
+.codeBar{display: none;}
+.codeBar>input,.loginBar>.codeInp{width:125px;padding-left:10px;}
+.getCode{display:inline-block;font-style: normal;width:96px;height:34px;line-height:34px;text-align:center;background:#0e6eb2;color:#fff;border-radius:2px;cursor:pointer;margin-left:20px;}
+.yzmCode{float:right;margin-top:9px;}
+.yzmChange{float:right;font-style:normal;cursor:pointer;width:40px;margin:6px 13px 0px 12px;}
+.erweimaArea{width:160px;height:160px;margin:20px auto 40px;position:relative;}
+.erweimaArea>img{width:160px;}
+.erweimaShade{display:none;width:100%;height:70%;padding-top:30%;background:rgba(0,0,0,.6);position:absolute;left:0px;top:0px;text-align: center;color:#fff;font-size:16px;}
+.erweimaBtn{width:60px;height:26px;text-align: center;line-height:26px;background:#f00;position:absolute;left:50px;top:95px;cursor:pointer;font-size:14px;}
+.erweimaP{text-align:center;}
+.erweimaP>a{color:#f00;margin:0px 2px;}
+.reuser{float:right;margin-bottom:13px;margin-right:20px;}
+.reuser>span{color:#b6a9ae;}
+.reuser>a{display:inline-block;border:1px solid #ddd0d5;color:#76696e;font-size:11px;width:68px;height:24px;line-height:24px;text-align:center;}
+.partner{clear:both;height:50px;padding-top:15px;border-top:1px solid #e6eef4;width:300px;margin:0px auto 11px;}
+.partnerList{overflow: hidden;margin-top:8px;}
+.partnerList a{display: block;float: left;height: 20px;background-image:url(../img/login_partner.jpg);background-repeat:no-repeat;padding-left: 27px;padding-top: 3px;margin-right: 18px;}
+.par_qq{background-position:0px 0px;}
+.par_sina{background-position:0px -23px;}
+.par_alipay{background-position:0px -46px;}
+.loginFoot{text-align: center;margin-top:70px;line-height:30px;color:#666;}
+.gongan{background:url(../img/gongan.png) left top no-repeat;padding-left:20px;}
+.loginFootList{width:490px;height:24px;line-height:24px;margin:0px auto 8px;}
+.loginFootList>li{float:left;}
+.loginFootList>li:not(:last-child):after{display: block;content: "|";float:right;}
+.loginFootList>li>a{color:#666;margin:0px 10px;}
